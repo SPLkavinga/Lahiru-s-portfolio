@@ -1,0 +1,91 @@
+
+        /* Styling for the form */
+       
+        .form-container {
+            background: #211d3a;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            /* color: white; */
+            border: 1px solid cyan;
+            background-image: url(../Images/email-background.jpg);
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+           
+        }
+
+        .form-container p {
+            font-size: 28px;
+            letter-spacing: -1.5px;
+            text-align: center;
+          }
+          
+          .form-container p span {
+            font-weight: 600;
+            color: cyan;
+          }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid cyan;
+            /* background : linear-gradient(rgb(4, 4, 65),black); */
+            background: #211d3a;
+            border-radius: 4px;
+            border: 1px solid cyan;
+            background-image: url(../Images/email-background.jpg);
+        }
+
+        button {
+            font-size: 18px;
+            font-weight: 500;
+            color: cyan;
+            padding: 7px 20px;
+            outline: none;
+            border-radius: 5px;
+            background: black;
+            border-color: cyan;
+            cursor: pointer;
+            
+        }
+
+        button:hover {
+            color: black;
+            background: cyan;
+            border-color: black;
+            border-radius: 5px;
+            font-weight: 500;
+            outline: none;
+        }
+        .submit{
+            margin-left: 30%;
+        }
+        h2{
+            color: cyan;
+        }
+
+        .travel{
+            color: blue;
+            cursor: pointer;
+        
+        }
+
+        .bot{
+            color: cyan;
+          }
+        #message{
+            color: white;
+          }
